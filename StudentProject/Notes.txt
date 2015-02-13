@@ -1,0 +1,22 @@
+--------------------------------
+Background photos for websites
+--------------------------------
+unsplash.com -for background photos
+imcreator.com
+day dream imcreator
+
+
+------------------------------------
+CDN links for Bootstrap and Jquery:
+------------------------------------
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+     
+
+ 
+ 
+ 

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app>
+    <head>
+        <title>Angular Lesson</title>
+        <style>
+            .blue{
+             color: blue;
+             font-weight: bold;
+            }
+            .red{
+             color: red;
+             font-weight: bold;
+            }
+        
+        </style>
+    </head>
+    <body>
+       <div ng-init="fruits=[
+                     {name:'orange',color:'orange'},
+                     {name:'grapes',color:'green'},
+                     {name:'banana',color:'yellow'}
+                     ]">
+        <ul>
+           <li ng-repeat="fruit in fruits">{{fruit.name}}-{{fruit.color}}</li>
+        </ul>
+           
+        </div>
+        
+        
+        <script src="angular.min.js"></script>    
+    </body>
+</html>

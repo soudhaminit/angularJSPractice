@@ -1,0 +1,17 @@
+{
+  "name": "zipapp",
+  "version": "0.1.1",
+  "description": "This is sample zipapp ",
+  "main": "zipcode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+"dependencies":{
+    "zipcode": "0.1.1"
+},    
+  "keywords": [
+    "zipcode.zipapp"
+  ],
+  "author": "soudhamini tk",
+  "license": "GNU"
+}

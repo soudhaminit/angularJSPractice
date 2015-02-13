@@ -1,0 +1,36 @@
+<! DOCTYPE html>
+<html ng-app="customersApp">
+    <head>
+        <title>Customers and Orders</title>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+        <link href="styles/animation.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <header >
+            <nav class="navbar navbar-default">
+                <ul class="nav navbar-nav">
+                <li><a href="#/customers">Customers</a></li>
+                <li><a href="#/allOrders">All Orders</a></li>
+                </ul>  
+            </nav>
+        </header>
+        <main>
+          <div ng-view class="slide-animation"></div>
+        </main>
+       <!--<script src="scripts/angular.min.js.map"></script>
+        <script src="scripts/angular-route.min.js.map"></script>
+        <script src="scripts/angular-animate.min.js.map"></script>-->
+        <script src="scriptss/angular.js"></script>
+        <script src="scriptss/angular-route.js"></script>
+        <script src="scriptss/angular-animate.js"></script>
+        <script src="app/app.js"></script>
+        <script src="app/controllers/customersController.js"></script>
+        <script src="app/controllers/ordersController.js"></script>
+        <script src="app/controllers/allOrdersController.js"></script>
+        <script src="app/services/customersFactory.js"></script>
+        <script src="app/services/values.js"></script>
+    
+    </body>
+    
+
+</html>
